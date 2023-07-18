@@ -1,0 +1,47 @@
+.menu-link__parent:before {
+    content: '\e937';
+    font-family: 'icomoon';
+    left: calc(100% + 16px);
+    top: 10px;
+    font-size: 48px;
+    line-height: 0.8;
+  }
+  
+  .menu-link__parent_second_half:before {
+    content: '\e937';
+    font-family: 'icomoon';
+    left: calc(100% + 16px);
+    top: auto;
+    font-size: 48px;
+    line-height: 0.8;
+    bottom: 0;
+  }
+  
+  .menu-link__parent--mobile:before {
+    content: '\e901';
+    font-family: 'icomoon';
+    left: 0;
+    top: 0;
+    font-size: 28px;
+    line-height: 0.8;
+  }
+  
+  /* tailwind xl */
+  @media only screen and (min-width: 1280px) {
+    .menu-link__parent--mobile:before {
+      content: '';
+    }
+  }
+  
+  /* tailwind xl */
+  @media only screen and (max-width: 1280px) {
+    .menu-link__parent:before {
+      content: '';
+    }
+  }
+  
+  .form-checkbox:checked:before {
+    content: '\e935';
+    font-family: 'icomoon';
+  }
+  
