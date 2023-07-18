@@ -48,7 +48,7 @@ export const Primary: Story = {
         topicName: 'addition',
         icon: 'icon icon-arrow-left-24',
         size: '28px',
-        tw: 'p-3 bg-red border border-black flex justify-between w-1/5 text-xl',
+        tw: 'p-3 bg-pink border border-black flex justify-between w-1/5 text-xl',
     },
   //  render: () => <ButtonWithHooks />,
 }
